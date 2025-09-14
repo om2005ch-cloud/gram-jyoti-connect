@@ -55,6 +55,34 @@ const translations: Translations = {
   kwh: { en: 'kWh', hi: 'किलोवाट घंटा', od: 'କିଲୋୱାଟ ଘଣ୍ଟା' },
   percent: { en: '%', hi: '%', od: '%' },
   
+  // Load Controls
+  loadControl: { en: 'Load Control', hi: 'लोड नियंत्रण', od: 'ଲୋଡ୍ ନିୟନ୍ତ୍ରଣ' },
+  manualOverride: { en: 'Manual Override', hi: 'मैन्युअल ओवरराइड', od: 'ମାନୁଆଲ୍ ଓଭର୍‌ରାଇଡ୍' },
+  streetLights: { en: 'Street Lights', hi: 'सड़क की रोशनी', od: 'ରାସ୍ତାର ଆଲୋକ' },
+  waterPump: { en: 'Water Pump', hi: 'पानी का पंप', od: 'ପାଣି ପମ୍ପ' },
+  communityHall: { en: 'Community Hall', hi: 'सामुदायिक भवन', od: 'ସମ୍ପ୍ରଦାୟ ହଲ୍' },
+  schoolLights: { en: 'School Lights', hi: 'स्कूल की रोशनी', od: 'ବିଦ୍ୟାଳୟ ଆଲୋକ' },
+  healthCenter: { en: 'Health Center', hi: 'स्वास्थ्य केंद्र', od: 'ସ୍ୱାସ୍ଥ୍ୟ କେନ୍ଦ୍ର' },
+  irrigationPump: { en: 'Irrigation Pump', hi: 'सिंचाई पंप', od: 'ଜଳସେଚନ ପମ୍ପ' },
+  
+  // Control States
+  turnOn: { en: 'Turn On', hi: 'चालू करें', od: 'ଚାଲୁ କରନ୍ତୁ' },
+  turnOff: { en: 'Turn Off', hi: 'बंद करें', od: 'ବନ୍ଦ କରନ୍ତୁ' },
+  auto: { en: 'Auto', hi: 'स्वचालित', od: 'ସ୍ୱୟଂଚାଳିତ' },
+  manual: { en: 'Manual', hi: 'मैन्युअल', od: 'ମାନୁଆଲ୍' },
+  scheduled: { en: 'Scheduled', hi: 'निर्धारित', od: 'ନିର୍ଦ୍ଧାରିତ' },
+  
+  // Status
+  running: { en: 'Running', hi: 'चालू', od: 'ଚାଲୁଛି' },
+  stopped: { en: 'Stopped', hi: 'बंद', od: 'ବନ୍ଦ' },
+  powerConsumption: { en: 'Power Consumption', hi: 'ऊर्जा खपत', od: 'ଶକ୍ତି ଖର୍ଚ୍ଚ' },
+  
+  // Time & Schedule
+  schedule: { en: 'Schedule', hi: 'समयसूची', od: 'ସମୟସୂଚୀ' },
+  duration: { en: 'Duration', hi: 'अवधि', od: 'ଅବଧି' },
+  startTime: { en: 'Start Time', hi: 'प्रारंभ समय', od: 'ଆରମ୍ଭ ସମୟ' },
+  endTime: { en: 'End Time', hi: 'समाप्ति समय', od: 'ସମାପ୍ତି ସମୟ' },
+  
   // Time
   lastUpdated: { en: 'Last Updated', hi: 'अंतिम अपडेट', od: 'ଶେଷ ଅପଡେଟ୍' },
 };
